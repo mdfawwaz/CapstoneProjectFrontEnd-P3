@@ -1,0 +1,53 @@
+/* Define the styling for the tile containers */
+.tile {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px #888888;
+  }
+  
+  /* Style the tile titles */
+  .tile-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style the input fields within the tiles */
+  .input-tile {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the labels for the input fields */
+  .input-tile label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Style the input elements */
+  .input-tile input, .input-tile select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the button for form submission */
+  .tile button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Additional styling can be added as needed */
+  

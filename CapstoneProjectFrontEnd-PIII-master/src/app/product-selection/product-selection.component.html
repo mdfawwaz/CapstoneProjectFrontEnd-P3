@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Selection</title>
+</head>
+<body>
+    <h1>Product Selection</h1>
+    <form th:action="@{/products/configuration}" method="post">
+        <div th:each="product : ${products}">
+            <div class="product-tile">
+                <label>
+                    <input type="checkbox" th:field="*{selectedProducts}" th:value="${product}" />
+                    <span th:text="${product.name}"></span>
+                </label>
+            </div>
+        </div>
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
